@@ -3,19 +3,19 @@ Bundle-ManifestVersion: 2
 Bundle-Name: KNIME Python Serialization Libs - Arrow
 Bundle-SymbolicName: org.knime.python2.serde.arrow.libs;singleton:=true
 Bundle-Version: 3.7.0.qualifier
-Bundle-ClassPath: lib/arrow-format-0.10.0.jar,
- lib/arrow-memory-0.10.0.jar,
- lib/arrow-tools-0.10.0.jar,
- lib/arrow-vector-0.10.0.jar,
- lib/netty-buffer-4.1.17.Final.jar,
- lib/netty-common-4.1.17.Final.jar
+Bundle-ClassPath: lib/arrow-format-0.11.0.jar,
+ lib/arrow-memory-0.11.0.jar,
+ lib/arrow-tools-0.11.0.jar,
+ lib/arrow-vector-0.11.0.jar,
+ lib/netty-buffer-4.1.22.Final.jar,
+ lib/netty-common-4.1.22.Final.jar,
+ lib/flatbuffers-java-1.9.0.jar
 Bundle-Vendor: KNIME AG, Zurich, Switzerland
 Require-Bundle: org.knime.python2;bundle-version="[3.4.0,4.0.0)",
  org.knime.core;bundle-version="[3.4.0,4.0.0)",
  org.apache.commons.lang3;bundle-version="[3.2.1,4.0.0)",
  org.apache.commons.cli;bundle-version="1.4.0",
  com.carrotsearch.hppc;bundle-version="0.7.2",
- com.vlkan.flatbuffers;bundle-version="1.2.0",
  org.slf4j.api;bundle-version="1.7.2",
  com.google.guava;bundle-version="19.0.0",
  com.fasterxml.jackson.core.jackson-annotations;bundle-version="2.7.9",
