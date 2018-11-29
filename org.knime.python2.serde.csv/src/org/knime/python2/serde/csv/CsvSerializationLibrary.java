@@ -564,6 +564,8 @@ public class CsvSerializationLibrary implements SerializationLibrary {
                             case INTEGER_SET:
                                 if (value.startsWith("set([")) {
                                     value = value.substring(5, value.length() - 2);
+                                } else if (value.startsWith("frozenset({")) {
+                                    value = value.substring(11, value.length() - 2);
                                 } else {
                                     value = value.substring(1, value.length() - 1);
                                 }
