@@ -79,6 +79,9 @@ public class PythonKernelOptions {
 
     private String m_kernelScriptPath;
 
+    private String m_externalCustomPath;
+
+
     /**
      * The default number of rows to transfer per chunk.
      */
@@ -393,6 +396,20 @@ public class PythonKernelOptions {
      */
     public void setKernelScriptPath(final String kernelScriptPath) {
         m_kernelScriptPath = kernelScriptPath;
+    }
+
+    /**
+     * @return the externalCustomPath
+     */
+    public String getExternalCustomPath() {
+        return m_externalCustomPath;
+    }
+
+    /**
+     * @param externalCustomPath the externalCustomPath to set
+     */
+    public void setExternalCustomPath(String externalCustomPath) {
+        m_externalCustomPath = externalCustomPath;
     }
 
     @Override
